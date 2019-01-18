@@ -1,0 +1,77 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.dFlex{ display: flex;}
+.justifyCC{ justify-content: center;}
+.justifySB{ justify-content: space-between}
+.alignIC{ align-items: center;}
+.alignCC{ align-content: center;}
+.alignFE{ align-content: flex-end;}
+.valignFE{vertical-align: flex-end;}
+.textAC{ text-align: center;}
+
+.flexDC{ flex-direction: column;}
+
+.color1{ color:#ffc300}
+.color2{ color:#F3F8DD}
+
+.ff0{ font-family: Folkard;}
+.ff1{ font-family: Poppins;}
+
+.fs16{ font-size: 16px;}
+.fs24{ font-size: 24px;}
+.fs36{ font-size: 36px;}
+.fs54{ font-size: 54px;}
+.fs76{ font-size: 76px;}
+
+.h20vh{ height: 20vh;}
+.h60vh{height: 60vh;}
+.h100vh{ height: 100vh;}
+.h100{ height: 100%;}
+.h200px{ height: 200px}
+.hAuto{height: auto;}
+
+.hMin20vh{ min-height: 20vh;}
+.hMin60vh{ min-height: 60vh;}
+
+.w100vh{ width: 100vh;}
+.w100{ width: 100%;}
+.w700px{ width: 500px}
+
+.w125px{ width: 125px;}
+
+.marB45{ margin-bottom: 45px;}
+
+.letterS2{letter-spacing: 2px;}
+
+.bg{ background-image: url("./medias/parchemin.png");
+background-repeat: no-repeat;
+background-size: cover;}
+
+@font-face {
+  font-family: 'Folkard';
+  src: url('Folkard.woff2') format('woff2'),
+      url('Folkard.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('Poppins-Light.woff2') format('woff2'),
+      url('Poppins-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+}
